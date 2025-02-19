@@ -1,7 +1,7 @@
-import brainwave from "./brainwave.svg";
+import riddox from "./riddox.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
-import browseeye from "./browse-eye.svg";
+import browseeye from "./browseeye.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
@@ -77,7 +77,7 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  brainwave,
+  riddox,
   check,
   check2,
   loading1,
