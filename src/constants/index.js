@@ -34,23 +34,23 @@ import {
   telegram,
   twitter,
   yourlogo,
-} from "../../public/assets";
+} from "../../src/assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "About Me",
+    url: "#aboutme",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Blog",
+    url: "#blog",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Specs",
+    url: "#Specs",
   },
   {
     id: "3",
@@ -59,14 +59,14 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
+    title: "Daisuke",
+    url: "#daisuke",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Details",
+    url: "#details",
     onlyMobile: true,
   },
 ];
