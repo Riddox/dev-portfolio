@@ -44,13 +44,13 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Blog",
-    url: "#blog",
+    title: "Projects",
+    url: "#projects",
   },
   {
     id: "2",
-    title: "Specs",
-    url: "#Specs",
+    title: "Services",
+    url: "#Services",
   },
   {
     id: "3",
@@ -65,8 +65,8 @@ export const navigation = [
   },
   {
     id: "5",
-    title: "Details",
-    url: "#details",
+    title: "Blog",
+    url: "#blog",
     onlyMobile: true,
   },
 ];
