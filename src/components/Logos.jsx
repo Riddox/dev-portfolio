@@ -13,7 +13,11 @@ const Logos = ({ className }) => {
             className="flex items-center justify-center flex-1 h-[8.5rem]"
             key={index}
           >
-            <img src={logo} width={134} height={28} alt="logo" />
+            <img
+              src={logo}
+              className="scale-150 transition-transform duration-300"
+              alt="logo"
+            />
           </li>
         ))}
       </ul>
