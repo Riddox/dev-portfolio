@@ -33,7 +33,11 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
+  htmllogo,
+  csslogo,
+  jslogo,
+  reactlogo,
+  tailwindlogo,
 } from "../../src/assets";
 
 export const navigation = [
@@ -75,7 +79,13 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [
+  htmllogo,
+  csslogo,
+  jslogo,
+  reactlogo,
+  tailwindlogo,
+];
 
 export const brainwaveServices = [
   "Photo generating",
