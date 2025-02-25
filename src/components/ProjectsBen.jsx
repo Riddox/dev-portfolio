@@ -18,6 +18,7 @@ const ProjectsBen = () => {
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
               key={item.id}
+              //ya burada bir sorun var anlamadım
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
