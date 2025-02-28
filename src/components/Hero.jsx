@@ -91,6 +91,7 @@ const Hero = () => {
 
       <BottomLine />
     </Section>
+    //should add some photos from ai
   );
 };
 
