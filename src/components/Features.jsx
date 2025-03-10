@@ -7,7 +7,7 @@ import { LeftLine, RightLine } from "./design/Features";
 
 const Features = () => {
   return (
-    <Section classname="overflow-hidden" id="featuring">
+    <Section classname="overflow-hidden" id="features">
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
@@ -23,7 +23,7 @@ const Features = () => {
               className="w-full"
               width={950}
               height={400}
-              alt=""
+              alt="Stars"
             />
           </div>
         </div>
