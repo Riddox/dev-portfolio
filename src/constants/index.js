@@ -47,18 +47,6 @@ export const navigation = [
     title: "Features",
     url: "#features",
   },
-  {
-    id: "4",
-    title: "Daisuke",
-    url: "#daisuke",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Blog",
-    url: "#blog",
-    onlyMobile: true,
-  },
 ];
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
