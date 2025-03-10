@@ -2,6 +2,8 @@ import React from "react";
 import Section from "./Section";
 import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
+import FeatureList from "./FeatureList";
+import { LeftLine, RightLine } from "./design/Features";
 
 const Features = () => {
   return (
@@ -29,6 +31,19 @@ const Features = () => {
           tag="Get Started with Riddox"
           title="Design, manage, and deliver with excellence."
         />
+        <div className="relative">
+          <FeatureList />
+          <LeftLine />
+          <RightLine />
+        </div>
+        <div className="flex justify-center mt-10">
+          <a
+            className="text-xs font-code font-bold tracking-wider uppercase border-b"
+            href="mailto:thexiledoor@gmail.com"
+          >
+            Send me an E-mail
+          </a>
+        </div>
       </div>
     </Section>
   );

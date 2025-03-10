@@ -9,22 +9,23 @@ import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 const Header = () => {
   const pathname = useLocation();
-  const [openNavigation, setopenNavigation] = useState(false);
+  const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
     if (openNavigation) {
-      setopenNavigation(false);
+      setOpenNavigation(false);
       enablePageScroll();
     } else {
-      setopenNavigation(true);
+      setOpenNavigation(true);
       disablePageScroll();
     }
   };
 
   const handleClick = () => {
     if (!openNavigation) return;
+
     enablePageScroll();
-    setopenNavigation(false);
+    setOpenNavigation(false);
   };
   return (
     <div
@@ -59,6 +60,7 @@ const Header = () => {
               </a>
             ))}
           </div>
+
           <HamburgerMenu />
         </nav>
         <a
