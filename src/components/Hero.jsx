@@ -1,5 +1,6 @@
 import { curve, heroBackground, robot } from "../assets";
 import Section from "./Section";
+import Button from "./Button";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
@@ -48,7 +49,7 @@ const Hero = () => {
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
                   src={robot}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
+                  className="w-full scale-[1.7] -translate-y-[20%] md:scale-[1] md:-translate-y-[32%] lg:-translate-y-[38%]"
                   width={1024}
                   height={490}
                   alt="PC"
@@ -68,7 +69,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Testimonials"
+                    title="Code generation"
                   />
                 </ScrollParallax>
               </div>
@@ -92,6 +93,7 @@ const Hero = () => {
 
       <BottomLine />
     </Section>
+    //should add some photos from ai
   );
 };
 
