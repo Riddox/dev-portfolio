@@ -16,17 +16,17 @@ import {
   facebook,
   figma,
   file02,
-  framer,
   homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
   notion,
-  photoshop,
   plusSquare,
-  protopie,
-  raindrop,
+  html5,
+  css3,
+  javascript1,
+  react1,
   recording01,
   recording03,
   roadmap1,
@@ -143,21 +143,23 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "With a strong focus on responsive design, seamless team collaboration, and code optimization, I create impactful, user-friendly digital experiences that drive results.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Responsive Design",
+    text: "By ensuring every project is fully responsive, I create seamless user experiences across all devices.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Team Collaboration",
+    text: "Through effective team collaboration, I deliver high-quality projects on time while maintaining clear communication.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Code Optimization",
+    text: "Focusing on code optimization, I ensure that my websites are fast, efficient, and scalable for the long term.",
   },
 ];
 
@@ -185,36 +187,36 @@ export const collabApps = [
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "HTML5",
+    icon: html5,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "CSS3",
+    icon: css3,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "Javascript",
+    icon: javascript1,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "React",
+    icon: react1,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "Slack",
+    icon: slack,
     width: 38,
     height: 32,
   },
