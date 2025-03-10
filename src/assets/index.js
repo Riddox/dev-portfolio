@@ -34,11 +34,11 @@ import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
 import discord from "./collaboration/discord.png";
 import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
+import html5 from "./collaboration/html5.png";
 import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
+import javascript1 from "./collaboration/javascript1.png";
+import css3 from "./collaboration/css3.png";
+import react1 from "./collaboration/react1.png";
 import slack from "./collaboration/slack.png";
 
 import service1 from "./services/service-1.png";
@@ -120,11 +120,11 @@ export {
   curve2,
   discord,
   figma,
-  framer,
   notion,
-  photoshop,
-  protopie,
-  raindrop,
+  html5,
+  css3,
+  react1,
+  javascript1,
   slack,
   service1,
   service2,
